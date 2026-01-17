@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suhaas Nandulamattam | Portfolio</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background: #f5f7fa;
+        color: #222;
+        line-height: 1.6;
+      }
+
+      header {
+        background: #0f172a;
+        color: #fff;
+        padding: 2.5rem 1rem;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 2.4rem;
+      }
+
+      header p {
+        margin-top: 0.5rem;
+        font-size: 1.1rem;
+        opacity: 0.9;
+      }
+
+      .resume-btn {
+        display: inline-block;
+        margin-top: 1.3rem;
+        padding: 0.7rem 1.6rem;
+        background: #2563eb;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 600;
+        transition:
+          background 0.3s ease,
+          transform 0.2s ease;
+      }
+
+      .resume-btn:hover {
+        background: #1e40af;
+        transform: translateY(-2px);
+      }
+
+      section {
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+
+      h2 {
+        color: #0f172a;
+        margin-bottom: 1rem;
+        border-bottom: 3px solid #0f172a;
+        display: inline-block;
+        padding-bottom: 0.3rem;
+      }
+
+      .card {
+        background: #fff;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      }
+
+      ul {
+        padding-left: 1.2rem;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      .skills span {
+        display: inline-block;
+        background: #e2e8f0;
+        padding: 0.4rem 0.9rem;
+        border-radius: 20px;
+        margin: 0.3rem;
+        font-size: 0.9rem;
+      }
+
+      .links a {
+        display: inline-block;
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+        color: #2563eb;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .links a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1.5rem;
+        background: #0f172a;
+        color: #fff;
+        margin-top: 3rem;
+      }
+
+      @media (max-width: 600px) {
+        header h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Suhaas Nandulamattam</h1>
+      <p>B.Tech Computer Engineering Student</p>
+      <p>Mumbai, India</p>
+
+      <!-- Resume Download Button -->
+      <a href="Suhaas_Nandulamattam_2026.pdf" download class="resume-btn">
+        Download Resume
+      </a>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <div class="card">
+        <p>
+          I am a second-year Bachelor of Technology student in Computer
+          Engineering at K.J. Somaiya School of Engineering, Mumbai, with a
+          current CGPA of 9.64. I am passionate about full-stack development,
+          problem solving, and building scalable, real-world software solutions.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="card skills">
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Java</span>
+        <span>C++</span>
+        <span>C</span>
+        <span>React.js</span>
+        <span>Axios</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>MySQL</span>
+        <span>Sequelize ORM</span>
+        <span>JWT</span>
+        <span>bcrypt</span>
+        <span>Git</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+
+      <div class="card">
+        <h3>Platform Engineering Intern</h3>
+        <p><strong>YOTTA (NMDC Data Centre Pvt Ltd)</strong> — Mumbai</p>
+        <p><em>June 2025 – July 2025</em></p>
+        <ul>
+          <li>
+            Worked on supervised machine learning concepts including regression
+            and classification.
+          </li>
+          <li>Developed frontend applications using React.js.</li>
+          <li>
+            Learned backend development fundamentals and Python programming.
+          </li>
+          <li>Practiced version control using Git.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>MERN Developer & Software Testing Intern</h3>
+        <p><strong>SWDC KJSSE ONLINE</strong></p>
+        <p><em>October 2025 – Ongoing</em></p>
+        <ul>
+          <li>Developing full-stack web applications using the MERN stack.</li>
+          <li>Working with MongoDB, Express.js, React.js, and Node.js.</li>
+          <li>
+            Performing software testing to ensure reliability and quality.
+          </li>
+          <li>Collaborating with team members on scalable system design.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="card">
+        <h3>Meeting Room Booking System</h3>
+        <ul>
+          <li>
+            Developed a full-stack system for managing corporate meeting room
+            reservations.
+          </li>
+          <li>
+            Implemented authentication, recurring meetings, participants, and
+            meeting minutes.
+          </li>
+          <li>Frontend built using React.js and Axios.</li>
+          <li>
+            Backend developed using Node.js, Express.js, Sequelize ORM, and
+            MySQL.
+          </li>
+          <li>Secure authentication using JWT and bcrypt.</li>
+        </ul>
+        <p>
+          <strong>GitHub:</strong>
+          <a
+            href="https://github.com/TheDarkKnightSujo/MeetingRoomBookingSystem"
+            target="_blank"
+          >
+            View Project
+          </a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Dynamic Tic-Tac-Toe</h3>
+        <ul>
+          <li>Customizable grid size with intelligent winner detection.</li>
+          <li>Built using React.js, CSS, and Vite.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>CivilSetu (SIH Project)</h3>
+        <ul>
+          <li>Crowdsourced civic issue reporting and resolution system.</li>
+          <li>Worked on backend, database, and full integration.</li>
+          <li>Technologies: Flask, Supabase, REST APIs, React Native.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <div class="card">
+        <ul>
+          <li>Supervised Machine Learning</li>
+          <li>Frontend Development</li>
+          <li>Backend Development</li>
+          <li>Python Programming</li>
+        </ul>
+        <p>
+          <a
+            href="https://drive.google.com/drive/folders/1oaRrNRR34jRPUfuTSmjNL8jIvwym4KWL?usp=sharing"
+            target="_blank"
+          >
+            View Certificates
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Links & Contact</h2>
+      <div class="card links">
+        <a
+          href="mailto:suhaasn2006@gmail.com?subject=Portfolio%20Contact%20-%20Suhaas"
+        >
+          Email
+        </a>
+        <span>suhaasn2006@gmail.com</span><br /><br />
+
+        <a
+          href="https://www.linkedin.com/in/suhaas-nandulamattam-b51838332/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        <a href="https://github.com/TheDarkKnightSujo" target="_blank">
+          GitHub
+        </a>
+        <a href="https://www.codechef.com/users/suhaasn61000" target="_blank">
+          CodeChef
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Suhaas Nandulamattam</p>
+    </footer>
+  </body>
+</html>
